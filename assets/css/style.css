@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+}
+
+.nav>li {
+    display: inline-block;
+}
