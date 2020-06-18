@@ -2,6 +2,8 @@ body {
     background-color: black;
 }
 
-.nav>li {
-    display: inline-block;
+/* Nav */
+
+#logo {
+    width: 50px;
 }
