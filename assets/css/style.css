@@ -2,8 +2,45 @@ body {
     background-color: black;
 }
 
+a {
+    color: whitesmoke;
+}
+
 /* Nav */
 
 #logo {
     width: 50px;
+}
+
+/* https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors */
+
+nav .navbar-nav li a{
+  color: whitesmoke !important;
+  }
+
+/* Footer */
+
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#social-links {
+    list-style-type: none;
+    text-align: center;
+    vertical-align: center;
+    padding-left: 0;
+    margin: 0px;
+}
+
+#social-links>li {
+    display: inline;
+    font-size: 20px;
+    padding: 5px;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
 }
