@@ -24,6 +24,21 @@ nav .navbar-nav li a{
 
 /* end of stack overflow code */
 
+/* Index Jumbotron */
+
+.see-my-work-jumbotron {
+    height: 60vh;
+    margin-bottom: 0px;
+    background: url(/assets/images/placeholder.jpg) ;
+    background-position: center;
+}
+
+.jumbotron-button-container {
+
+}
+
+
+
 /* Footer */
 
 footer {
