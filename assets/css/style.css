@@ -55,12 +55,13 @@ nav .navbar-nav li a{
 .see-my-work-jumbotron {
     height: 60vh;
     margin-bottom: 0px;
-    background: url(/assets/images/placeholder.jpg) ;
-    background-position: center;
 }
 
-.jumbotron-button-container {
-
+#jumbotron-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 4px 5px 6px rgba(0,0,0,0.7);
 }
 
 /* Testimonials */
