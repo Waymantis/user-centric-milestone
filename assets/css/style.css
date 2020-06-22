@@ -79,6 +79,12 @@ nav .navbar-nav li a{
 
 /* Portfolio Videos */
 
+/* Portfolio Call to Action */
+
+#portfolio-call-to-action {
+    text-align: center;
+}
+
 /* Portfolio Gallery */
 
 .image-wrapper {  
