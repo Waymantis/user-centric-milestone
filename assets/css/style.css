@@ -55,6 +55,10 @@ nav .navbar-nav li a{
     height: 30vh;
 }
 
+.testimonial-video-container>video {
+    height: 30vh;
+}
+
 
 
 /* Footer */
