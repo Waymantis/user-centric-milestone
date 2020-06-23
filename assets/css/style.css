@@ -1,5 +1,16 @@
 /* Body */
 
+/* Stack Overflow code for dealing with whitespace issue on right hand side of index.html and about.html. https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend*/
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+/* End of Stack Overflow code. */
+
 body {
     background-color: #000910;
     color: whitesmoke;
@@ -41,14 +52,14 @@ a {
     text-decoration: underline;
 }
 
-/* https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors */
+/* Stack Overflow code for problem where bootstrap styles were not changing properties. Solution was to add the !important property https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors */
 
 nav .navbar-nav li a{
   color: whitesmoke !important;
   font-size: 20px;
   }
 
-/* end of stack overflow code */
+/* End of Stack Overflow code */
 
 /* Index Jumbotron */
 
@@ -131,6 +142,7 @@ footer p {
     color: whitesmoke;
     text-align: center;
     margin: 0px;
+    width: 100vw;
 }
 
 /* About */
@@ -162,3 +174,8 @@ footer p {
     width: auto;
 }
 
+/* Contact */
+
+#contact-me-card {
+    height: 80vh;
+}
