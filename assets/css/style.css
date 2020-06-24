@@ -14,10 +14,12 @@ html,body
 body {
     background-color: #000910;
     color: whitesmoke;
+    font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6{
     color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
 }
 
 a {
@@ -73,6 +75,7 @@ nav .navbar-nav li a{
     text-transform: uppercase;
     font-size: 45px;
     text-shadow: 4px 5px 6px rgba(0,0,0,0.7);
+    font-family: 'Oswald', sans-serif;
 }
 
 #jumbotron-info {
