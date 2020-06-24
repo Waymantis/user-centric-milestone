@@ -147,6 +147,10 @@ footer p {
 
 /* About */
 
+#about-me {
+    margin-top: 10px;
+}
+
 .portrait-image {
     margin-left: auto;
     margin-right: auto;
@@ -164,14 +168,36 @@ footer p {
 }
 
 #skills-card {
-    height: 40vh;
+    height: 30vh;
     width: auto;
 }
 
 #education-card {
 
-    height: 40vh;
+    height: 30vh;
     width: auto;
+}
+
+#cv-and-testimonials {
+    margin-bottom: 10px;
+}
+
+#cv-card {
+    height: 30vh;
+    width: auto;
+}
+
+#testimonials-card {
+    height: 30vh;
+    width: auto;
+}
+
+#carouselTestimonials {
+    height: 20vh;
+}
+
+#carouselTestimonials>.carousel-inner {
+    height: 20vh;
 }
 
 /* Contact */
