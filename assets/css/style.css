@@ -173,6 +173,10 @@ footer p {
 #carouselTestimonials> .carousel-inner {
     height: 20vh;
 }
+#simon-david-testimonial {
+    background-image: url (/assets/images/testimonial1.jpg)
+}
+}
 /* Contact */
 #contact-me-card {
     height: 80vh;
