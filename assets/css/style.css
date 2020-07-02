@@ -147,14 +147,46 @@ footer p {
     height: 300px;
     width: auto;
 }
+@media screen and (max-width: 720px) {
+  #about-me-card {
+    height: 350px;
+    width: auto;
+  }
 #skills-card {
     height: 30vh;
     width: auto;
 }
+#skills-card>.card-body {
+    padding-top: 2px;
+}
+#skills-list{
+    list-style-type: none;
+    padding: 0;
+}
+#skills-list>li{
+    margin-top: 4px;
+}
 #education-card {
-
     height: 30vh;
     width: auto;
+}
+#education-card>.card-body {
+    padding-top: 2px;
+}
+#education-list{
+    list-style-type: none;
+    padding: 2px;
+}
+#education-card li p{
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+#education-card li{
+    margin-bottom: 10px;
+}
+#education-card hr{
+    
+    margin: 0;
 }
 #cv-and-testimonials {
     margin-bottom: 10px;
@@ -175,7 +207,7 @@ footer p {
 #carouselTestimonials> .carousel-inner {
     height: 25vh;
 }
-.carousel-item img {
+#cv-and-testimonials .carousel-item img {
     height: 25vh;
     width: auto;
     display: block;
