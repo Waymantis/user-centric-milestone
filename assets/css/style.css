@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6{
 a {
     color: whitesmoke;
 }
+a:hover {
+    color: #f3de8a;
+}
 /* Bootstrap Components */
 .card {
     background-color: #00171f;
@@ -48,6 +51,9 @@ nav .navbar-nav li a{
   font-size: 20px;
   }
 /* End of Stack Overflow code */
+nav .navbar-nav li a:hover{
+  color: #f3de8a !important;
+  }
 /* Index Jumbotron */
 .video-container{
     position: absolute;
@@ -82,6 +88,20 @@ nav .navbar-nav li a{
 }
 .jumbotron {
     background-color: rgba(0,0,0,0)
+}
+/*Contact Me Modal*/
+.modal-content{
+    background-color: rgba(0, 0, 0, 0.65);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.close{
+    color: whitesmoke;
+    opacity: 1;
+}
+.close:hover{
+    color: #f3de8a;
+    opacity: 1;
 }
 /* Testimonials */
 #testimonialCarousel {
@@ -214,7 +234,7 @@ footer p {
     height: 25vh;
 }
 #cv-and-testimonials .carousel-item img {
-    height: 20vh;
+    height: 25vh;
     width: auto;
     display: block;
     margin: auto;
