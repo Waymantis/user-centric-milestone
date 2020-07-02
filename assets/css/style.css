@@ -168,14 +168,16 @@ footer p {
     width: auto;
 }
 #carouselTestimonials {
-    height: 20vh;
+    height: 25vh;
 }
 #carouselTestimonials> .carousel-inner {
-    height: 20vh;
+    height: 25vh;
 }
-#simon-david-testimonial {
-    background-image: url (/assets/images/testimonial1.jpg)
-}
+.carousel-item img {
+    height: 25vh;
+    width: auto;
+    display: block;
+    margin: auto;
 }
 /* Contact */
 #contact-me-card {
