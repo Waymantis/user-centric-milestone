@@ -77,9 +77,19 @@ nav .navbar-nav li a:hover{
     z-index: -1;
     object-fit: fill;
 }
+#index-video-mobile{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    object-fit: fill;
+}
 .see-my-work-jumbotron {
     height: 90vh;
     margin-bottom: 0px;
+    padding-top: 35vh;
 }
 #jumbotron-title {
     text-align: center;
@@ -88,11 +98,27 @@ nav .navbar-nav li a:hover{
     text-shadow: 4px 5px 6px rgba(0,0,0,0.7);
     font-family: 'Oswald', sans-serif;
 }
+@media only screen and (min-width: 1920px) {
+  #jumbotron-title {
+    font-size: 150px;
+  }
+}
 #jumbotron-info {
     position: relative;
 }
 .jumbotron {
     background-color: rgba(0,0,0,0)
+}
+/*Stack Overflow code for hiding videos at different media queieries*/
+@media screen and (min-width:721px) {
+    .hidden-desktop {
+        display: none;
+    }
+}
+@media screen and (max-width:720px) {
+    .hidden-mobile {
+        display: none;
+    }
 }
 /*Contact Me Modal*/
 .modal-content{
