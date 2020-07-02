@@ -34,6 +34,11 @@ a:hover {
 .btn-primary {
     background-color: #184c5d;
     font-size: 20px;
+    border-color: #00171f;
+}
+.btn-primary:hover {
+    background-color: #f3de8a;
+    border-color: #f3de8a
 }
 /* Nav */
 #logo {
