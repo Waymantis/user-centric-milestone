@@ -37,7 +37,7 @@
 						<a href="/about.html" alt="About" class="nav-link">About</a>
 					</li>
 					<li class="nav-item mr-2">
-						<a href="/contact.html" alt="Contact" class="nav-link">Contact</a>
+						<a data-toggle="modal" href="#contactModal" alt="Contact" class="nav-link">Contact</a>
 					</li>
 						<li class="nav-item mr-2">
 						<a href="/assets/documents/james-wayman-cv-2020.pdf" target="_blank" alt="CV" class="nav-link">CV
@@ -278,6 +278,42 @@
 		</ul>
 		<p>Site by James Wayman 2020</p>
 	</footer>
+        <!-- Contact Me modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Get in touch!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+            <div class="form-group">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" id="fname"  placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" id="lname"  placeholder="Last name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="youremailaddress@example.com">
+            </div>
+            <div class="form-group">
+                <label for="your-message">Your Message</label>
+                <textarea class="form-control" id="your-message" rows="3" placeholder="Ask me anything!"></textarea>
+            </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
