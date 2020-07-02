@@ -8,22 +8,27 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+
 /* End of Stack Overflow code. */
 body {
     background-color: #000910;
     color: whitesmoke;
     font-family: 'Lato', sans-serif;
 }
+
 h1, h2, h3, h4, h5, h6{
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
 }
+
 a {
     color: whitesmoke;
 }
+
 a:hover {
     color: #f3de8a;
 }
+
 /* Bootstrap Components */
 .card {
     background-color: #00171f;
@@ -31,11 +36,13 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .btn-primary {
     background-color: #184c5d;
     font-size: 20px;
     border-color: #00171f;
 }
+
 .btn-primary:hover {
     background-color: #f3de8a;
     border-color: #f3de8a
@@ -50,15 +57,18 @@ a:hover {
 .active {
     text-decoration: underline;
 }
+
 /* Stack Overflow code for problem where bootstrap styles were not changing properties. Solution was to add the !important property https://stackoverflow.com/questions/48735679/bootstrap-change-navbar-link-colors */
 nav .navbar-nav li a{
   color: whitesmoke !important;
   font-size: 20px;
-  }
+}
+
 /* End of Stack Overflow code */
 nav .navbar-nav li a:hover{
   color: #f3de8a !important;
-  }
+}
+
 /* Index Jumbotron */
 .video-container{
     position: absolute;
@@ -68,6 +78,7 @@ nav .navbar-nav li a:hover{
     height: 100%;
     overflow: hidden;
 }
+
 #index-video{
     position: absolute;
     top: 0;
@@ -77,6 +88,7 @@ nav .navbar-nav li a:hover{
     z-index: -1;
     object-fit: fill;
 }
+
 #index-video-mobile{
     position: absolute;
     top: 0;
@@ -86,11 +98,13 @@ nav .navbar-nav li a:hover{
     z-index: -1;
     object-fit: fill;
 }
+
 .see-my-work-jumbotron {
     height: 90vh;
     margin-bottom: 0px;
     padding-top: 35vh;
 }
+
 #jumbotron-title {
     text-align: center;
     text-transform: uppercase;
@@ -98,77 +112,94 @@ nav .navbar-nav li a:hover{
     text-shadow: 4px 5px 6px rgba(0,0,0,0.7);
     font-family: 'Oswald', sans-serif;
 }
+
 @media only screen and (min-width: 1920px) {
   #jumbotron-title {
     font-size: 150px;
   }
 }
+
 #jumbotron-info {
     position: relative;
 }
+
 .jumbotron {
     background-color: rgba(0,0,0,0)
 }
+
 /*Stack Overflow code for hiding videos at different media queieries*/
 @media screen and (min-width:721px) {
     .hidden-desktop {
         display: none;
     }
 }
+
 @media screen and (max-width:720px) {
     .hidden-mobile {
         display: none;
     }
 }
+
 /*Contact Me Modal*/
 .modal-content{
     background-color: rgba(0, 0, 0, 0.65);
     padding-left: 20px;
     padding-right: 20px;
 }
+
 .close{
     color: whitesmoke;
     opacity: 1;
 }
+
 .close:hover{
     color: #f3de8a;
     opacity: 1;
 }
+
 /* Testimonials */
 #testimonialCarousel {
     height: 30vh;
 }
+
 .carousel-inner {
     height: 30vh;
 }
+
 .testimonial-video-container>video {
     height: 30vh;
 }
+
 /* Portfolio*/
 @media only screen and (min-width: 1920px) {
   .portfolio-wrapper {
     padding: 20px;
   }
 }
+
 /* Portfolio Call to Action */
 #portfolio-call-to-action {
     text-align: center;
     margin-bottom: 20px
 }
+
 /* Portfolio Gallery */
 .image-wrapper {  
   height: 100%;
   width: 100%
 }
+
 .gallery-image {
     width: 50vw;
 }
+
 /* Footer */
 footer {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #184c5d;
 }
+
 #social-links {
     list-style-type: none;
     text-align: center;
@@ -176,21 +207,25 @@ footer {
     padding-left: 0;
     margin: 0px;
 }
+
 #social-links> li {
     display: inline;
     font-size: 20px;
     padding: 5px;
 }
+
 footer p {
     color: whitesmoke;
     text-align: center;
     margin: 0px;
     width: 100vw;
 }
+
 /* About */
 #about-me {
     margin-top: 10px;
 }
+
 .portrait-image {
     margin-left: auto;
     margin-right: auto;
@@ -201,75 +236,125 @@ footer p {
     width: 300px;
     height: auto;
 }
+
 #about-me-card {
     height: 300px;
     width: auto;
 }
+
+@media only screen and (max-width: 720px) {
+  #about-me-card {
+    height: 335px;
+  }
+}
+
 #about-me-card>.card-body {
     padding-top: 2px;
 }
+
 #skills-card {
     height: 30vh;
     width: auto;
 }
+
+@media only screen and (max-width: 400px) {
+  #skills-card {
+    height: 95%;
+  }
+} 
+
+@media only screen and (min-width: 768px) {
+  #skills-card {
+    height: 95%;
+  }
+} 
+
 #skills-card>.card-body {
     padding-top: 2px;
 }
+
 #skills-list{
     list-style-type: none;
     padding: 0;
 }
+
 #skills-list>li{
     margin-top: 4px;
 }
+
 #education-card {
     height: 30vh;
     width: auto;
 }
+
+@media only screen and (max-width: 400px) {
+  #education-card {
+    height: 95%;
+  }
+} 
+
+@media only screen and (min-width: 768px) {
+  #education-card {
+    height: 95%;
+  }
+} 
+
 #education-card>.card-body {
     padding-top: 2px;
 }
+
 #education-list{
     list-style-type: none;
     padding: 2px;
 }
+
 #education-card li p{
     margin-bottom: 0px;
 }
+
 #education-card li{
     margin-bottom: 10px;
 }
+
 #education-card hr{
     
     margin: 0;
 }
+
 #cv-and-testimonials {
     margin-bottom: 10px;
 }
+
 #cv-card {
     height: 30vh;
     width: auto;
     font-size: 10vh;
 }
+
 #cv-card .card-body{
     text-align: center;
 }
+
 #testimonials-card {
     height: 30vh;
     width: auto;
 }
+
 #carouselTestimonials {
     height: 25vh;
 }
+
 #carouselTestimonials> .carousel-inner {
     height: 25vh;
 }
+
 #cv-and-testimonials .carousel-item img {
     height: 25vh;
     width: auto;
     display: block;
     margin: auto;
 }
+
 /* Contact */
 #contact-me-card {
     height: 80vh;
