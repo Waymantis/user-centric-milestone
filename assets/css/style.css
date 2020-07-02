@@ -162,6 +162,8 @@ footer p {
 #cv-card {
     height: 30vh;
     width: auto;
+    font-size: 10vh;
+    text-align: center;
 }
 #testimonials-card {
     height: 30vh;
