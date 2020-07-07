@@ -1,4 +1,5 @@
 /* Body */
+
 /* Stack Overflow code for dealing with whitespace issue on right hand side of index.html and about.html. https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend*/
 html,body
 {
@@ -8,8 +9,8 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
-
 /* End of Stack Overflow code. */
+
 body {
     background-color: #000910;
     color: whitesmoke;
@@ -47,6 +48,7 @@ a:hover {
     background-color: #f3de8a;
     border-color: #f3de8a
 }
+
 /* Nav */
 #logo {
     width: 50px;
@@ -127,7 +129,7 @@ nav .navbar-nav li a:hover{
     background-color: rgba(0,0,0,0)
 }
 
-/*Stack Overflow code for hiding videos at different media queieries*/
+/*Based on Stack Overflow code for hiding videos at different media queieries https://stackoverflow.com/questions/43533942/hiding-an-image-in-responsive*/
 @media screen and (min-width:721px) {
     .hidden-desktop {
         display: none;
@@ -139,6 +141,7 @@ nav .navbar-nav li a:hover{
         display: none;
     }
 }
+/*End of Stack Overflow inspired code."
 
 /*Contact Me Modal*/
 .modal-content{
