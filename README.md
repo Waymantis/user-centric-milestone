@@ -29,7 +29,8 @@ This will help inform the entire User Experience by presenting the material in t
         1. For returning users, it is important that they have quick access to contacting myself, through the site and social media links.
         2. It is also important to ensure that there is extra information regarding the specifics of each project displayed on the site. This, in a manner that doesn't detract from the streamlined expereince of a first time user.
 
-## User Journey Flowchart ##
+### User Journey Flowchart ###
+
 ![The User Journey](/assets/readme_images/user_journey.png)
 
 * Design
