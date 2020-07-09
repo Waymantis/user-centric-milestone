@@ -34,31 +34,31 @@ This will help inform the entire User Experience by presenting the material in t
 ![The User Journey](/assets/readme_images/user_journey.png)
 
 ### Design ###
-    * Layout
-        * The site will be displayed in a way that is optimised for mobiles first, but is responsive and adjusts accordingly to desktop screens. This will be done utilising BootStrap 4's grid system, and media queries.
-        * The layout will place an empthasis on videos where they are displayed, ensuring that the user expereiences them in the best posible way, and presents the portfolio in the best light.
-        * There will be call to action buttons used throughout the design to encourage the user journey of first time users.
-    * Colors
-        * The colors used on the site should follow existing personal branding. In this case, a color pallete has been created with the exact hex values of these colors.
-        * Additional considerations have been made for links, to ensure that they respond aesthetically in a clear way that gels with the design. In that respect, an additional 'Hover' colour was added to the pallete.
-        ![Color Pallete](/assets/readme_images/colors.png)
-    * Video
-        * All video content used on the site will come from my own work and portfolio.
-        * With the empthasis on video, this site needs to display content in the best possible way. Portfolio video content will be hosted on Vimeo, as Vimeo provides excellent image quality and responsive embed features.
-        * All additional content that is to be uploaded to Vimeo will be exported from Adobe Premiere Pro using the highest quality Vimeo preset, to enusre maximum viewing quality.
-        * For HTML5 video content, video will be rendered through Adobe Premiere Pro presets that empthasise quality, but not at the cost of overall site performance, rendering at reasonable bitrates to ensure fast loading.
-        * The landing page will feature two seperate videos based on the type of device you are visiting on. Mobile users will see a dedicated 720p portrait video. Desktop and tablet users will see a dedicated 1080p landscape video. 
-        This will ensure that video content is designed properly for mobile and desktop.
-    * Images
-        * All images used on this site will come from my own design and photography assets.
-        * Any assets will be put through Adobe Photoshop and sized according to their function. Maintaining visual quality, but empthasising performance on the site.
-        * The images chosen will be the ones with the most visual appeal, that will display best on both mobile and desktop.
-        * The testimonial section will have several image carousel slides that will be specially designed and put together within Adobe Photoshop.
-        * The website will use an updated version of my logo in a .png format.
-    * Typeography
-        * The webiste will utilise Google Fonts for its type, and default back to sans-serif in the event the Google fonts cannot load.
-        * The content text will use the 'Lato' font. This font displays well on both mobile and desktop devices, allowing for a pleasant reading expereince.
-        * Headings will use the 'Oswalt' font. This compliaments the 'Lato' font well, and displays strongly on mobile and desktop devices in headings.
+* Layout
+    * The site will be displayed in a way that is optimised for mobiles first, but is responsive and adjusts accordingly to desktop screens. This will be done utilising BootStrap 4's grid system, and media queries.
+    * The layout will place an empthasis on videos where they are displayed, ensuring that the user expereiences them in the best posible way, and presents the portfolio in the best light.
+    * There will be call to action buttons used throughout the design to encourage the user journey of first time users.
+* Colors
+    * The colors used on the site should follow existing personal branding. In this case, a color pallete has been created with the exact hex values of these colors.
+    * Additional considerations have been made for links, to ensure that they respond aesthetically in a clear way that gels with the design. In that respect, an additional 'Hover' colour was added to the pallete.
+    ![Color Pallete](/assets/readme_images/colors.png)
+* Video
+    * All video content used on the site will come from my own work and portfolio.
+    * With the empthasis on video, this site needs to display content in the best possible way. Portfolio video content will be hosted on Vimeo, as Vimeo provides excellent image quality and responsive embed features.
+    * All additional content that is to be uploaded to Vimeo will be exported from Adobe Premiere Pro using the highest quality Vimeo preset, to enusre maximum viewing quality.
+    * For HTML5 video content, video will be rendered through Adobe Premiere Pro presets that empthasise quality, but not at the cost of overall site performance, rendering at reasonable bitrates to ensure fast loading.
+    * The landing page will feature two seperate videos based on the type of device you are visiting on. Mobile users will see a dedicated 720p portrait video. Desktop and tablet users will see a dedicated 1080p landscape video. 
+    This will ensure that video content is designed properly for mobile and desktop.
+* Images
+    * All images used on this site will come from my own design and photography assets.
+    * Any assets will be put through Adobe Photoshop and sized according to their function. Maintaining visual quality, but empthasising performance on the site.
+    * The images chosen will be the ones with the most visual appeal, that will display best on both mobile and desktop.
+    * The testimonial section will have several image carousel slides that will be specially designed and put together within Adobe Photoshop.
+    * The website will use an updated version of my logo in a .png format.
+* Typeography
+    * The webiste will utilise Google Fonts for its type, and default back to sans-serif in the event the Google fonts cannot load.
+    * The content text will use the 'Lato' font. This font displays well on both mobile and desktop devices, allowing for a pleasant reading expereince.
+    * Headings will use the 'Oswalt' font. This compliaments the 'Lato' font well, and displays strongly on mobile and desktop devices in headings.
 
 ## Wireframes and Mock Visuals ##
 
