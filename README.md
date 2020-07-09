@@ -218,6 +218,10 @@ There are several external sources of code to credit:
 
 * Stack Overflow code that helped my find a way to hide videos at different media queieries: https://stackoverflow.com/questions/43533942/hiding-an-image-in-responsive
 
+### Templates and Example Material ###
+
+* GitPod project template and readme provided by the Code Institute.
+
 ### Acknowledgements ###
 
 * Firstly, a massive thank you to my tutor Gerry McBride. Your knowledge of code, overall support, quality feedback, and enthusiasm for my project was excellent.
