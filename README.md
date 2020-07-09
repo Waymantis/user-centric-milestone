@@ -162,7 +162,9 @@ This project was further tested on several members of my family across multiple 
 
 ## Deployment ##
 
-### GitHub Pages
+Deployment Instructions curtosey of the Code Institute readme.md example sheet:
+
+### GitHub Pages ###
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -174,7 +176,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-### Forking the GitHub Repository
+### Forking the GitHub Repository ###
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -182,7 +184,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+### Making a Local Clone ###
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
@@ -221,7 +223,9 @@ There are several external sources of code to credit:
 
 ### Templates and Example Material ###
 
-* GitPod project template and readme provided by the Code Institute.
+* GitPod project template provided by the Code Institute.
+
+* GitHub pages deployment instructions credited to Code Institute's readme.md example documentation.
 
 ### Acknowledgements ###
 
