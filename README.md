@@ -33,7 +33,7 @@ This will help inform the entire User Experience by presenting the material in t
 
 ![The User Journey](/assets/readme_images/user_journey.png)
 
-* Design
+### Design ###
     * Layout
         * The site will be displayed in a way that is optimised for mobiles first, but is responsive and adjusts accordingly to desktop screens. This will be done utilising BootStrap 4's grid system, and media queries.
         * The layout will place an empthasis on videos where they are displayed, ensuring that the user expereiences them in the best posible way, and presents the portfolio in the best light.
